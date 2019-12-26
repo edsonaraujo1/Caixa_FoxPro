@@ -1,11 +1,11 @@
 ***
 *  Programador..: Edson de Araujo
 *  Programador..: Charles C. Camargo Jr
-*  Finalidade...: InicializaÁ„o dos Eventos e Ambiente
-*  Sistema......: Sindicato dos Empregados de Edificios de S„o Paulo
+*  Finalidade...: Inicializa√ß√£o dos Eventos e Ambiente
+*  Sistema......: Sindicato dos Empregados de Edificios de S√£o Paulo
 *  
 *  Inicio Programa.:  15/11/1999
-*  Ultima AlteraÁ„o.: 22/11/2011
+*  Ultima Altera√ß√£o.: 22/11/2011
 *
 *  Sistema.: Sistema Escrito em VISUAL FOX PRO 8.0
 *
@@ -48,16 +48,16 @@ nre_us  = " "
 
 atu_ali_za = "Atualizado: 04/02/2019"
 
-*ipserver = "191.255.225.238"
+*ipserver = "191.255.999.999"
 
-*ipserver = "200.161.185.83"
+*ipserver = "200.161.999.999"
 
-ipserver = "192.168.1.85"
+ipserver = "192.168.000.999"
 
 *ipserver = "localhost"
 
 PUBLIC ipsqlserv
-ipsqlserv = "192.168.1.85"
+ipsqlserv = "192.168.999.999"
 
 SET STATUS OFF
 SET SYSMENU OFF 
@@ -98,7 +98,7 @@ Declare Integer FindWindow In Win32API Integer, String
 lnWinHandle = FindWindow( 0, Nome_1)
 If lnWinHandle # 0
 _screen.Caption = "Sys Caixa" 
-=Messagebox( "O aplicativo j· est· sendo executado!", 16, cTitulo)
+=Messagebox( "O aplicativo j√° est√° sendo executado!", 16, cTitulo)
 Cancel
 Endif
 
